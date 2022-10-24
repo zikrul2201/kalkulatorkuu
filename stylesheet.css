@@ -1,0 +1,64 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+	
+	background-image: url(https://marketplace.canva.com/EAFMQLe8pl8/1/0/1600w/canva-black-illustrated-forest-desktop-wallpaper-pbAazZ3jvTw.jpg);
+	height: 637px;
+}
+
+.heading {
+    padding: 50px;
+	font-size: 20px;
+	color: antiquewhite;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+	width: fixed;
+	background: rgb(0, 0, 0);
+	padding: 25px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px;
+}
+
+.main h2 {
+	text-align: center;
+	color: #5a5a4c;
+	text-transform: uppercase;
+}
+
+.button {
+	width: 50px;
+	height: 50px;
+	font-size: 25px;
+	margin: 2px;
+	cursor: pointer;
+	border: none;
+	background: #5a5a4c;
+	color: rgb(0, 0, 0);
+	border-radius: 25px;
+	
+}
+
+.btn-green {
+	background:rgb(255, 255, 255);
+	color:#000000;
+}
+
+.textarea {
+	width: 204px;
+	margin: 4px;
+	font-size: 20px;
+	padding: 10px;
+	border: none;
+	color: #000000;
+	border-radius: 25px;
+	text-align: right;
+}
